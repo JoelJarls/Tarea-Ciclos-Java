@@ -6,7 +6,7 @@
 - Marlon Yaguana
 - Leyber Peñafiel
 - Joel Pacha
-- Steve Ortiz
+- Steeve Ortiz
 
 ## Objetivo
 Implementar algoritmos de lógica de programación en Java aplicando estructuras de repetición (`for`, `while`, `do-while`), validación de datos de entrada y trazabilidad mediante pruebas de escritorio.
