@@ -1,1 +1,1 @@
-<p>Pseudocodigo del ejercicio 1.</p>
+<p>Pseudocodigo de los ejercicios .</p>
