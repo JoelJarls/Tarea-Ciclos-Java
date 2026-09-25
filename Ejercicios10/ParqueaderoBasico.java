@@ -139,7 +139,7 @@ public class ParqueaderoBasico {
                     
                     double promedio = (double) totalHoras / cantidadVehiculos;
                     
-                    System.out.println("\n--- ESTADÍSTICAS ---");[cite: 2]
+                    System.out.println("\n--- ESTADÍSTICAS ---");
                     System.out.println("Carros: " + cCarros + " | Motos: " + cMotos + " | Bicicletas: " + cBicis);
                     System.out.println("Estudiantes: " + cEst + " | Docentes: " + cDoc + " | Visitantes: " + cVis);
                     System.out.println("Total de horas: " + totalHoras);
@@ -165,7 +165,7 @@ public class ParqueaderoBasico {
                         }
                     }
                     
-                    System.out.println("\n--- RECAUDACIÓN ---");[cite: 2]
+                    System.out.println("\n--- RECAUDACIÓN ---");
                     System.out.println("Total recaudado: $" + totalRecaudado);
                     System.out.println("Mayor valor pagado: $" + mayorPagado);
                     System.out.println("Menor valor pagado: $" + menorPagado);
