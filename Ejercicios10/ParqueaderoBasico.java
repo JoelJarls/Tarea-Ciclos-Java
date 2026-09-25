@@ -25,7 +25,7 @@ public class ParqueaderoBasico {
             System.out.println("3. Mostrar estadísticas");
             System.out.println("4. Mostrar recaudación");
             System.out.println("5. Salir");
-            System.out.println("================================"); // Menú solicitado[cite: 1, 2]
+            System.out.println("================================"); 
             System.out.print("Seleccione una opción: ");
             
             opcion = scanner.nextInt();
@@ -40,7 +40,7 @@ public class ParqueaderoBasico {
                     String rol = scanner.nextLine();
                     
                     int horas = 0;
-                    while (horas <= 0) { // Validación de horas positivas[cite: 1]
+                    while (horas <= 0) { // Validación de horas positivas
                         System.out.print("Número de horas (> 0): ");
                         horas = scanner.nextInt();
                         scanner.nextLine();
@@ -56,7 +56,7 @@ public class ParqueaderoBasico {
                         boletoPerdido = true;
                     }
                     
-                    // --- Cálculos de tarifa según el enunciado[cite: 1] ---
+                    // --- Cálculos de tarifa según el enunciado
                     double tarifaBase = 0;
                     if (tipo.equalsIgnoreCase("Carro")) {
                         tarifaBase = 1.00;
@@ -78,13 +78,13 @@ public class ParqueaderoBasico {
                     
                     subtotal = subtotal - (subtotal * descuento);
                     
-                    // Recargo de fin de semana[cite: 1]
+                    // Recargo de fin de semana
                     if (dia.equalsIgnoreCase("Sabado") || dia.equalsIgnoreCase("Sábado") || dia.equalsIgnoreCase("Domingo")) {
                         subtotal = subtotal + (subtotal * 0.15); // 15%
                     }
                     
                     double total = subtotal;
-                    // Recargo de boleto[cite: 1]
+                    // Recargo de boleto
                     if (boletoPerdido == true) {
                         total = total + 2.00;
                     }
