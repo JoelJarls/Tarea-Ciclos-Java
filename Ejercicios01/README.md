@@ -46,7 +46,7 @@ El programa debe determinar:
 
 ---
 
-## 3. Diccionario de datos (según el código)
+## 3. Diccionario de datos 
 
 | Variable          | Tipo     | Descripción                                              |
 |--------------------|----------|------------------------------------------------------------|
@@ -63,7 +63,7 @@ El programa debe determinar:
 
 ---
 
-## 4. Estructura del programa (según el código)
+## 4. Estructura del programa 
 
 ```
 INICIO
