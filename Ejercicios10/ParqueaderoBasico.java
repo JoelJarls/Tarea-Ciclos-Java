@@ -68,7 +68,7 @@ public class ParqueaderoBasico {
                     
                     double subtotal = horas * tarifaBase;
                     
-                    // Descuentos[cite: 1]
+                    // Descuentos
                     double descuento = 0;
                     if (rol.equalsIgnoreCase("Estudiante")) {
                         descuento = 0.20; // 20%
