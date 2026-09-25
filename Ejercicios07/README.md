@@ -79,7 +79,7 @@ Se deben **validar todas las entradas**.
 
 ---
 
-## 3. Diccionario de datos (según el código)
+## 3. Diccionario de datos
 
 | Variable          | Tipo     | Descripción                                                      |
 |--------------------|----------|----------------------------------------------------------------------|
@@ -99,7 +99,7 @@ Se deben **validar todas las entradas**.
 
 ---
 
-## 4. Estructura del programa (según el código)
+## 4. Estructura del programa 
 
 ```
 INICIO
